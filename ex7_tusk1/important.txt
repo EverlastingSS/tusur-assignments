@@ -1,0 +1,31 @@
+                  -`                     alisa@laptop
+                 .o+`                    ------------
+                `ooo/                    OS: Arch Linux x86_64
+               `+oooo:                   Host: Jiaolong16Q Series GM6BG0Q
+              `+oooooo:                  Kernel: Linux 6.18.9-arch1-2
+              -+oooooo+:                 Uptime: 10 hours, 24 mins
+            `/:-:++oooo+:                Packages: 1212 (pacman)
+           `/++++/+++++++:               Shell: fish 4.4.0
+          `/++++++++++++++:              Display (LC24RG50): 1920x1080 in 24", 144 Hz [External]
+         `/+++ooooooooooooo/`            Display (BOE0A1F): 2560x1600 @ 1.6x in 16", 165 Hz [Built-in]
+        ./ooosssso++osssssso+`           WM: Hyprland 0.53.3 (Wayland)
+       .oossssso-````/ossssss+`          Theme: Tokyonight-Light-Storm [GTK2/3/4]
+      -osssssso.      :ssssssso.         Icons: Slot-Spectrum-Light-Icons [GTK2/3/4]
+     :osssssss/        osssso+++.        Font: JetBrains Mono (11pt) [GTK2/3/4]
+    /ossssssss/        +ssssooo/-        Cursor: Colloid-Dracula-cursors-dark (36px)
+  `/ossssso+/:-        -:/+osssso+-      Terminal: kitty 0.45.0
+ `+sso+:-`                 `.-/+oso:     Terminal Font: JetBrainsMono-Regular (14pt)
+`++:.                           `-/+/    CPU: AMD Ryzen 7 7735H (16) @ 4.83 GHz
+.`                                 `/    GPU 1: NVIDIA GeForce RTX 4060 Max-Q / Mobile [Discrete]
+                                         GPU 2: AMD Radeon 680M [Integrated]
+                                         Memory: 8.18 GiB / 14.86 GiB (55%)
+                                         Swap: 0 B / 7.43 GiB (0%)
+                                         Disk (/): 18.32 GiB / 45.96 GiB (40%) - ext4
+                                         Disk (/home): 70.25 GiB / 421.13 GiB (17%) - ext4
+                                         Local IP (eno1): 888.888.888.888/24
+                                         Battery (standard): 100% [AC Connected]
+                                         Locale: en_US.UTF-8
+ 
+Welcome to fish, the friendly interactive shell
+Type help for instructions on how to use fish
+alisa@laptop ~> i use arch btw
