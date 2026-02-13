@@ -58,7 +58,7 @@ class Program
             return;
         }
 
-        // Сжатие массива
+        // cжимаем мягонького!
         double[] newArr = new double[n];
         int index = 0;
 

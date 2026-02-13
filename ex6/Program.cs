@@ -129,10 +129,10 @@ class Program
             return;
         }
 
-        // создаём копию списка
+        // копия списка
         List<TaskItem> sorted = new List<TaskItem>(tasks);
 
-        // сортировка по возрастанию приоритета (1, 2, 3...)
+        // по приоритету
         sorted.Sort((a, b) =>
         {
             if (a.Priority < b.Priority) return -1;
@@ -140,7 +140,7 @@ class Program
             return 0;
         });
 
-        TaskItem task = sorted[0]; // первая — самая приоритетная
+        TaskItem task = sorted[0]; // первая -- самая приоритетная
 
         SaveState();
         tasks.RemoveAll(t => t.Id == task.Id);

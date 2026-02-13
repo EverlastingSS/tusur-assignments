@@ -99,8 +99,6 @@ class Money : Value, IOperations
 
 class Program
 {
-    // -------- БЕЗОПАСНЫЙ ВВОД --------
-
     static int ReadInt(string message)
     {
         int value;

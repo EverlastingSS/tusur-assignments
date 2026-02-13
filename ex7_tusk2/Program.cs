@@ -9,7 +9,7 @@ class Goods
     private int quantity;
     private string invoiceNumber;
 
-    // Конструктор
+    // конструктор
     public Goods(string name, DateTime date, double price, int quantity, string invoiceNumber)
     {
         this.name = name;
@@ -19,13 +19,13 @@ class Goods
         this.invoiceNumber = invoiceNumber;
     }
 
-    // Деструктор
+    // деконструктор
     ~Goods()
     {
         Console.WriteLine("Объект Goods удален");
     }
 
-    // Изменение цены
+    
     public void ChangePrice(double newPrice)
     {
         if (newPrice < 0)
@@ -38,7 +38,7 @@ class Goods
         Console.WriteLine("Цена успешно изменена.");
     }
 
-    // Увеличение количества
+    // + колво
     public void IncreaseQuantity(int amount)
     {
         if (amount <= 0)
@@ -51,7 +51,7 @@ class Goods
         Console.WriteLine("Количество увеличено.");
     }
 
-    // Уменьшение количества
+    // - колво
     public void DecreaseQuantity(int amount)
     {
         if (amount <= 0)
@@ -70,13 +70,13 @@ class Goods
         Console.WriteLine("Количество уменьшено.");
     }
 
-    // Общая стоимость
+    // тотал 
     public double CalculateTotalCost()
     {
         return price * quantity;
     }
 
-    // Стоимость в виде строки
+    // стоимость как строка
     public string GetTotalCostString()
     {
         return "Общая стоимость: " + CalculateTotalCost() + " руб.";
@@ -96,8 +96,6 @@ class Goods
 
 class Program
 {
-    // -------- БЕЗОПАСНЫЙ ВВОД --------
-
     static int ReadInt(string message)
     {
         int value;
@@ -129,7 +127,7 @@ class Program
         DateTime value;
         while (true)
         {
-            Console.Write(message + " (формат: дд.ММ.гггг): ");
+            Console.Write(message + " (формат: дд.мм.гггг): ");
             string input = Console.ReadLine();
 
             if (DateTime.TryParseExact(
@@ -142,7 +140,7 @@ class Program
                 return value;
             }
 
-            Console.WriteLine("Ошибка! Введите дату в формате дд.ММ.гггг");
+            Console.WriteLine("Ошибка! Введите дату в формате дд.мм.гггг");
         }
     }
 
@@ -178,7 +176,7 @@ class Program
 
         while (true)
         {
-            Console.WriteLine("\n--- МЕНЮ ---");
+            Console.WriteLine("\n");
             Console.WriteLine("1 - Изменить цену");
             Console.WriteLine("2 - Увеличить количество");
             Console.WriteLine("3 - Уменьшить количество");

@@ -103,6 +103,7 @@ class Program
             {
                 Console.WriteLine("Ошибка! Введите число.");
             }
+        // while(true) { кодим }
         }
     }
 }
