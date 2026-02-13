@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UI4CfzaQ95U=",
+  "success": true,
+  "projectFilePath": "/home/alisa/vscode/code/tusur/ex3_tusk1/ex3_tusk1.csproj",
+  "expectedPackageFiles": [
+    "/home/alisa/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.3/microsoft.aspnetcore.app.ref.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
