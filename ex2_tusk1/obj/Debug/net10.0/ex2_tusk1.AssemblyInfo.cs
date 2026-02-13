@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ex2_tusk1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1123e10eafd62e6f79c0624c3f1b9e5fb3d00de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba4e74360a9b6317703b1f43bbe86aab9a361026")]
 [assembly: System.Reflection.AssemblyProductAttribute("ex2_tusk1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ex2_tusk1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
