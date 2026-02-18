@@ -1,35 +1,32 @@
 ﻿using System;
-using System.Diagnostics;
-// 25
+
 class Program
 {
     static void Main()
     {
-        Console.WriteLine("Введите строку:");
+        // массив символов вместо строки
+        char[] text = { 'h', 'e', 'l', 'l', 'o', ' ', 'm', 'y', ' ', 'd', 'e', 'a', 'r', ' ', 'w', 'o', 'r', 'l', 'd' };
 
-        string input = Console.ReadLine();
-
-        if (input.Length == 0)
-        {
-            Console.WriteLine("Ошибка! строка пустая");
-            return;
-        }
-
-        // всего слов
         int wordCount = 0;
         bool inWord = false;
 
-        for (int i = 0; i < input.Length; i++)
+        for (int i = 0; i < text.Length; i++)
         {
-            if (input[i] != ' ' && !inWord)
+            if (text[i] != ' ' && !inWord)
             {
                 wordCount++;
                 inWord = true;
             }
-            else if (input[i] == ' ')
+            else if (text[i] == ' ')
             {
                 inWord = false;
             }
+        }
+
+        if (wordCount == 0)
+        {
+            Console.WriteLine("Ошибка! Нет слов.");
+            return;
         }
 
         // заполняем массив словами
@@ -39,11 +36,11 @@ class Program
         inWord = false;
         string currentWord = "";
 
-        for (int i = 0; i < input.Length; i++)
+        for (int i = 0; i < text.Length; i++)
         {
-            if (input[i] != ' ')
+            if (text[i] != ' ')
             {
-                currentWord += input[i];
+                currentWord += text[i];
                 inWord = true;
             }
             else
@@ -78,15 +75,7 @@ class Program
             }
         }
 
-        // вывод всех слов + длина 
-        Console.WriteLine("\nСлова, отсортированные по длине и усталости:");
-
-
-        if (words.Length == 0)
-        {
-            Console.WriteLine("Ошибка! Строка состоит только из пустых символов.");
-            return; 
-        }
+        Console.WriteLine("Слова, отсортированные по длине:");
         for (int i = 0; i < words.Length; i++)
         {
             Console.WriteLine($"{i + 1}. {words[i]} (длина: {words[i].Length})");

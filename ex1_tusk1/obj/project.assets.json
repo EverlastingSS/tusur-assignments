@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "/home/alisa/.nuget/packages/": {}
+    "C:\\Users\\alisa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alisa/vscode/code/tusur/ex1_tusk1/ex1.csproj",
+      "projectUniqueName": "C:\\home\\vscode\\tusur-assignments\\ex1_tusk1\\ex1.csproj",
       "projectName": "ex1",
-      "projectPath": "/home/alisa/vscode/code/tusur/ex1_tusk1/ex1.csproj",
-      "packagesPath": "/home/alisa/.nuget/packages/",
-      "outputPath": "/home/alisa/vscode/code/tusur/ex1_tusk1/obj/",
+      "projectPath": "C:\\home\\vscode\\tusur-assignments\\ex1_tusk1\\ex1.csproj",
+      "packagesPath": "C:\\Users\\alisa\\.nuget\\packages\\",
+      "outputPath": "C:\\home\\vscode\\tusur-assignments\\ex1_tusk1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/alisa/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\alisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -60,18 +60,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[10.0.3, 10.0.3]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

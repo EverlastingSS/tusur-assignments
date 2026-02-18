@@ -2,6 +2,7 @@
 // 25
 struct Student
 {
+    // типизация -- это ОТЛИЧНО! я обожаю структуры. 
     public string LastName;
     public string FirstName;
     public int ClassNumber;

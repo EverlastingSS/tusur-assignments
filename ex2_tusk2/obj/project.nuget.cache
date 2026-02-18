@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+KX8umECOgU=",
+  "dgSpecHash": "bOcH5kgUJ3E=",
   "success": true,
-  "projectFilePath": "/home/alisa/vscode/code/tusur/ex2_tusk2/ex2_tusk2.csproj",
-  "expectedPackageFiles": [
-    "/home/alisa/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.3/microsoft.aspnetcore.app.ref.10.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\home\\vscode\\tusur-assignments\\ex2_tusk2\\ex2_tusk2.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

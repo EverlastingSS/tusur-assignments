@@ -24,7 +24,8 @@ class Program
         }
 
         // минимальный
-        double min = arr[0];
+        double min = arr[0]; 
+        
         for (int i = 1; i < n; i++)
         {
             if (arr[i] < min)
@@ -35,13 +36,17 @@ class Program
 
         // до первого положительного
         double sum = 0;
+        bool fl = false;
         for (int i = 0; i < n; i++)
         {
-            if (arr[i] > 0)
-                break;
+            if (arr[i] > 0){
+                fl = true; 
+                break;}
 
             sum += arr[i];
         }
+        if (fl == false)
+            {sum = 0;}
 
         Console.WriteLine("Введите границы интервала(a и b), каждый на новой строке:");
 
