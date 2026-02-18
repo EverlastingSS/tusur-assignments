@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pWLqr4Uy/2g=",
+  "dgSpecHash": "+3KDNCDz9a8=",
   "success": true,
-  "projectFilePath": "C:\\home\\vscode\\tusur-assignments\\ex1_tusk1\\ex1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/alisa/vscode/code/tusur/ex1_tusk1/ex1.csproj",
+  "expectedPackageFiles": [
+    "/home/alisa/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.3/microsoft.aspnetcore.app.ref.10.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

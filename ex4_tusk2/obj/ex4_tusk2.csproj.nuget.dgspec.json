@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\home\\vscode\\tusur-assignments\\ex4_tusk2\\ex4_tusk2.csproj": {}
+    "/home/alisa/vscode/code/tusur/ex4_tusk2/ex4_tusk2.csproj": {}
   },
   "projects": {
-    "C:\\home\\vscode\\tusur-assignments\\ex4_tusk2\\ex4_tusk2.csproj": {
+    "/home/alisa/vscode/code/tusur/ex4_tusk2/ex4_tusk2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\home\\vscode\\tusur-assignments\\ex4_tusk2\\ex4_tusk2.csproj",
+        "projectUniqueName": "/home/alisa/vscode/code/tusur/ex4_tusk2/ex4_tusk2.csproj",
         "projectName": "ex4_tusk2",
-        "projectPath": "C:\\home\\vscode\\tusur-assignments\\ex4_tusk2\\ex4_tusk2.csproj",
-        "packagesPath": "C:\\Users\\alisa\\.nuget\\packages\\",
-        "outputPath": "C:\\home\\vscode\\tusur-assignments\\ex4_tusk2\\obj\\",
+        "projectPath": "/home/alisa/vscode/code/tusur/ex4_tusk2/ex4_tusk2.csproj",
+        "packagesPath": "/home/alisa/.nuget/packages/",
+        "outputPath": "/home/alisa/vscode/code/tusur/ex4_tusk2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/alisa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -54,12 +54,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[10.0.3, 10.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
